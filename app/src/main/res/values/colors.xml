@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorPrimaryDark">#E64A19</color>
+    <color name="colorAccent">#FF5722</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider1">#BDBDBD</color>
+
+
+    <color name="form_light_background">#ED8E70</color>
+    <color name="windowBackground">#1C1C1C</color>
+    <color name="colorButtonNormal">#FFFFFB</color>
+    <color name="textColorPrimary">#FFFFFB</color>
+    <color name="textColorPrimaryInverse">#1C1C1C</color>
+    <color name="overlay">#AA1C1C1C</color>
+    <color name="divider">#333333</color>
+
+</resources>

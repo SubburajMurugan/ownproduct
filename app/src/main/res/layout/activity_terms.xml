@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/form_light_background"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_160sdp"
+        android:background="@color/icons"
+        android:elevation="@dimen/_10sdp">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/icon"
+            android:layout_centerHorizontal="true"
+            android:text="@string/more_terms"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/_20sdp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_height="match_parent">
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="@dimen/_10sdp" />
+    </LinearLayout>
+
+
+</LinearLayout>

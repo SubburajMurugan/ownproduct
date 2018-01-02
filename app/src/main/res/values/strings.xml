@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">InvenzoBugtrack</string>
+
+    <!-- Login strings-->
+    <string name="login_email">Email</string>
+    <string name="login_mobile">MobileNumber</string>
+    <string name="login_password">Password</string>
+    <string name="login_Title">Login</string>
+    <string name="login_newuser">Not Registered yet! SignUp</string>
+    <string name="login_forgotpassword">Forgot Password?</string>
+
+
+    <!-- register strings-->
+    <string name="register_name">FullName</string>
+    <string name="register_email">Email</string>
+    <string name="register_designation">Designation</string>
+    <string name="register_mobile">MobileNumber</string>
+    <string name="register_gender">Gender</string>
+    <string name="register_rolename">Role</string>
+
+    <!-- VERIFYOTP strings-->
+    <string name="otp_instruction">OTP has been sent to your mobilenumber.please enter it below</string>
+    <string name="otp_resend">Resend OTP</string>
+    <string name="otp_verify">Verify</string>
+
+
+    <!-- more strings-->
+    <string name="more_account">Account Settings</string>
+    <string name="more_notification">Notification Settings</string>
+    <string name="more_privacy">Privacy</string>
+    <string name="more_terms">Terms And Conditions</string>
+
+    <!-- profile strings-->
+    <string name="profile_title">Profile</string>
+    <string name="profile_name">FullName</string>
+    <string name="profile_email">Email</string>
+    <string name="profile_designation">Designation</string>
+    <string name="profile_mobile">MobileNumber</string>
+    <string name="profile_gender">Gender</string>
+    <string name="profile_rolename">Role</string>
+    <string name="profile_changepassword">Change Passowrd?</string>
+
+    <!-- changepassword strings-->
+    <string name="changepassword_old">Old Password</string>
+    <string name="changepassword_new">New Password</string>
+    <string name="changepassword_confirm">Confirm New Password</string>
+
+
+    <!-- activity_forgotpassword strings-->
+    <string name="forgotpassword_old">Forgotten Password?</string>
+    <string name="forgotpassword_new">Please enter your registered mobile number, we will sent an otp to reset the password</string>
+
+
+    <!-- general strings-->
+    <string name="label_select_picture">Select Picture</string>
+    <string name="toast_cannot_retrieve_selected_image">Cannot retrieve selected image </string>
+    <string name="toast_cannot_retrieve_cropped_image">Cannot retrieve cropped image </string>
+    <string name="toast_unexpected_error">Unexpected error</string>
+
+    <string name="button_allow">Allow</string>
+    <string name="button_deny">Deny</string>
+    <string name="permission_pick_rationale">READ_EXTERNAL_STORAGE permission is needed to pick image.</string>
+    <string name="permission_crop_rationale">WRITE_EXTERNAL_STORAGE permission is needed to save cropped image.</string>
+    <string name="permission_denied">Permission was denied. Please consider granting it in order to use all features.</string>
+    <string name="permission_denied_never_ask_again">Permission was denied with never ask again.</string>
+
+
+</resources>
